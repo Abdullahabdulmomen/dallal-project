@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    font-family: 'Tajawal', sans-serif;
+    color:#364C63 ;
+}
+
+/*this div for push footer to dropdown */
+.wrap{
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+
+}
