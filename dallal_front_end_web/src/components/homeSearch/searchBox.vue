@@ -49,7 +49,7 @@
     margin-bottom: 28px;
     padding: 8px;
     padding-right: 32px;
-    background-image: url(/assets/icon/search-24px.svg);
+    background-image: url('~@/assets/icon/search-24px.svg');
     background-position: right .60rem center;
     background-repeat: no-repeat;
 }
@@ -71,7 +71,7 @@
     width: 75%;
     padding: 8px;
     padding-right: 32px;
-    background-image: url(/assets/icon/dropdown.svg);
+    background-image: url('~@/assets/icon/dropdown.svg');
     background-position: left .60rem center;
     background-repeat: no-repeat;
 }
