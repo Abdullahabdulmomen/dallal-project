@@ -2,7 +2,7 @@
        <!--start navbar-->
      <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
         <div class="container">
-          <router-link class="navbar-brand" to="/" ><img src="../assets/logo.svg" alt="logo"></router-link>
+          <router-link class="navbar-brand" to="/" ><img src="../assets/icon/logo.svg" alt="logo"></router-link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -13,31 +13,31 @@
                 <li class="nav-item dropdown">
                     <router-link class="nav-link" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <span>التصنيفات</span>
-                        <img src="../assets/dropdown.svg" alt="dropdown-icon">
+                        <img src="../assets/icon/dropdown.svg" alt="dropdown-icon">
                     </router-link>
                     <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
-                        <li><router-link class="dropdown-item" to="/"><img src="../assets/directions_car-24px.svg" alt="car-icon">سيارات</router-link></li>
+                        <li><router-link class="dropdown-item" to="/"><img src="../assets/icon/directions_car-24px.svg" alt="car-icon">سيارات</router-link></li>
                             
-                        <li><router-link  class="dropdown-item" to="/"><img src="../assets/weekend-24px.svg" alt="goods-icon">اثاث منزل</router-link></li>
+                        <li><router-link  class="dropdown-item" to="/"><img src="../assets/icon/weekend-24px.svg" alt="goods-icon">اثاث منزل</router-link></li>
                         
-                        <li><router-link class="dropdown-item" to="/"><img src="../assets/apartment-24p.svg" alt="apartment-icon">عقارات</router-link></li>
+                        <li><router-link class="dropdown-item" to="/"><img src="../assets/icon/apartment-24p.svg" alt="apartment-icon">عقارات</router-link></li>
                         
-                        <li><router-link class="dropdown-item" to="/"><img src="../assets/smartphone-24px.svg" alt="phone-icon">هواتف</router-link></li>
+                        <li><router-link class="dropdown-item" to="/"><img src="../assets/icon/smartphone-24px.svg" alt="phone-icon">هواتف</router-link></li>
                         
-                        <li><router-link class="dropdown-item" to="/"><img src="../assets/kitchen-24px.svg" alt="electronic-icon"> الكترونيات</router-link></li>
+                        <li><router-link class="dropdown-item" to="/"><img src="../assets/icon/kitchen-24px.svg" alt="electronic-icon"> الكترونيات</router-link></li>
                         
-                        <li> <router-link class="dropdown-item" to="/"><img src="../assets/two_wheeler-24px.svg" alt="motorCycle-icon">دراجات نارية</router-link></li>
+                        <li> <router-link class="dropdown-item" to="/"><img src="../assets/icon/two_wheeler-24px.svg" alt="motorCycle-icon">دراجات نارية</router-link></li>
             
                     </ul>
                 </li>
 
              
                 <li class="nav-item nav-item-left" id="add-post">
-                    <router-link   class="nav-link" aria-current="page" to="/"><span>اضف اعلانك</span><img src="../assets/add.svg" alt="add-post-icon"></router-link >
+                    <router-link   class="nav-link" aria-current="page" to="/"><span>اضف اعلانك</span><img src="../assets/icon/add.svg" alt="add-post-icon"></router-link >
                 </li>
     
                   <li class="nav-item nav-item-left">
-                    <router-link  class="nav-link" to="/"><span>ابحث</span><img src="../assets/search-24px.svg" alt="search-icon"></router-link >
+                    <router-link  class="nav-link" to="/"><span>ابحث</span><img src="../assets/icon/search-24px.svg" alt="search-icon"></router-link >
                 </li>
 
 
