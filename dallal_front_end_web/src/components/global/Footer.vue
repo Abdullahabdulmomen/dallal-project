@@ -95,6 +95,100 @@
     color: #fff;
     font-size: 15px;
 }
+
+
+
+@media (min-width:992px) and (max-width:1200px){
+    .container{
+        max-width: 1200px;
+    }
+    .footer .row .social-media a{
+        margin-left: 10px;
+    }
+}
+
+
+
+
+@media (min-width:768px) and (max-width:992px){
+    .container{
+        max-width: 992px;
+    }
+
+    .footer .row > div{
+        width: 25%;
+    
+    }
+
+    .footer .row .fab{
+        margin-left: 4px !important;   
+    }
+    
+}
+
+@media (min-width:576px) and (max-width:768px){
+    .container{
+        max-width: 768px;
+    }
+    .footer .row > div{
+        width: 50% !important;
+    
+    }
+
+}
+
+@media (min-width:400px) and (max-width:576px){
+    .container{
+        max-width: 576px;
+    }    
+    .footer .container{
+        max-width: 576px;
+    }
+
+    .footer .row > div{
+        width: 50% !important;
+    
+    }
+
+    .footer .row .information  {
+        margin-top: 30px;
+    }
+    
+    .footer .row .social-media  {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:400px){
+    .container{
+        max-width: 400px;
+    }
+    .footer .container{
+        max-width: 576px;
+    }
+
+    .footer .row > div{
+        width: 50%;
+    
+    }
+
+
+    .footer .row > div{
+        width: 50% !important;
+    
+    }
+
+    .footer .row .information  {
+        margin-top: 30px;
+    }
+    
+    .footer .row .social-media  {
+        margin-top: 30px;
+    }
+
+   
+
+}
 </style>
 
 <script>
