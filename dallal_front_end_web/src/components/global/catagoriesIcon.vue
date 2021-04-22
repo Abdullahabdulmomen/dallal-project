@@ -46,18 +46,10 @@
 
 <style scoped>
 
-.catagories{
-    margin-top: 40px; 
- }
-
-
-.catagories .catagory-title{
-    font-size: larger;
-    font-weight: bold;  
-}
 
 .catagories .catagory-icons {
-    margin-right: 5%;;   
+    margin-right: 5%;
+    height: auto;  
 }
 
 .catagories .catagory-icons .icons {
@@ -70,8 +62,8 @@
     position: relative;
     transition: all .5s ease;
     margin: 0;
-    width: 79%;
-    height: 79%;
+    width: 100%;
+    height: 100%;
 }
 
 .catagories .catagory-icons .icons a:hover{
@@ -128,8 +120,9 @@
 .catagories .icons .electronic-icon{
     top: 105px;
     right: 16px;
-}catagory-icons {
-    margin-right: 5%;;   
+}
+.catagory-icons {
+    margin-right: 5%; 
 }
 
  .catagory-icons .icons {
@@ -200,6 +193,137 @@
 .icons .electronic-icon{
     top: 105px;
     right: 16px;
+}
+
+
+@media (min-width:992px) and (max-width:1200px){
+    .container{
+        max-width: 1200px;
+    }
+  
+
+    .catagories .row{
+        margin-right: 10px;
+    }
+
+  
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .container{
+        max-width: 992px;
+    }
+    .catagories .catagory-icons {
+        margin-right: 0;  
+    }
+}
+
+@media (min-width:576px) and (max-width:768px){
+    .container{
+        max-width: 768px;
+    }
+  
+    .catagories .catagory-icons {
+        margin-right: 0;  
+    }
+    
+
+    .catagories .catagory-icons .icons {
+        width: 33%;
+    }
+
+
+}
+
+@media (min-width:400px) and (max-width:576px){
+    .container{
+        max-width: 576px;
+    }
+ 
+    .catagories{
+        height: 260px;
+    }
+    
+    .catagories .catagory-icons {
+        margin-right: 0;     
+    }
+    
+    .catagories .catagory-icons .icons {
+        width: 33%;
+    }
+    
+    .catagories .catagory-icons .icons .icon{
+        width: 75px;
+        height: 75px;
+    }
+    
+    
+    .catagories .catagory-icons .icons .icon img{
+        right: 32px;
+        top: 24px;
+        width: 42px;
+        height: 42px;
+        z-index: 1;
+    }
+    
+    .catagories .icons .icon-name{
+        font-size: 18px;
+        width: 100px;
+        top: 95px;      
+    }
+
+
+}
+
+@media (max-width:400px){
+    .container{
+        max-width: 400px;
+    }
+
+    .catagories{
+        height: 260px;
+    }
+    
+    .catagories .catagory-icons{
+        margin-right: 0;     
+    }
+    
+    .catagories .catagory-icons .icons {
+        width: 33%;
+        margin-right: 0;
+    }
+
+    .catagories .catagory-icons .icons a{
+        width: 100%;
+        height: 100%;
+    }
+
+    .catagories .catagory-icons .icons .icon{
+        width: 65px;
+        height: 65px;
+    }
+    
+    
+    .catagories .catagory-icons .icons .icon img{
+        right: 32px;
+        top: 24px;
+        width: 35px;
+        height: 35px;
+        z-index: 1;
+    }
+    
+    .catagories .icons .icon-name{
+        font-size: 15px;
+        width: 100%;
+        top: 80px;
+            
+    }
+
+    .catagories .icons .smartphone {
+        right: 28px;
+        
+    }
+
 }
 </style>
 
