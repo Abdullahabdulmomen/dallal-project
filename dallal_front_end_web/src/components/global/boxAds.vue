@@ -3,12 +3,12 @@
                   
     <div class="box">
         <div class="card" >
-            <a  href="#"><img class="favorite-icon" src="@/assets/icon/favorite.svg" alt="favorite-icon"></a>
+            <router-link to="/"><img class="favorite-icon" src="@/assets/icon/favorite.svg" alt="favorite-icon"></router-link>
                 <div class="inner">
-            <a href="#"> <img  src="@/assets/icon/pexels-designecologist-1005058.jpg" class="card-img-top" alt="..."></a>
+            <router-link to="/"> <img  src="@/assets/icon/pexels-designecologist-1005058.jpg" class="card-img-top" alt="..."></router-link>
                 </div>
              <div class="card-body">
-            <a class="nav-link" href="#"><h5 class="card-title">{{tittle}}</h5></a>
+            <router-link class="nav-link" to="/"><h5 class="card-title">{{tittle}}</h5></router-link>
                     <span class="card-text">30.000 ريال</span>
                     <span class="time">قبل 5 دقائق</span>
             </div>

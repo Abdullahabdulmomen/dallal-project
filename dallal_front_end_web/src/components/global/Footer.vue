@@ -4,36 +4,36 @@
                 <div class="row ">
                   <div class="navigation ">
                     <h4>التنقل</h4>
-                    <a class="nav-link" href="#">الصفحة الرئيسية</a>
-                    <a class="nav-link" href="#">بحث</a>
-                    <a class="nav-link" href="#">حسابي</a>
-                    <a class="nav-link" href="#">اضف اعلانك</a>
-                    <a class="nav-link" href="#">تواصل معنا</a>
+                    <router-link class="nav-link" to="/">الصفحة الرئيسية</router-link>
+                    <router-link class="nav-link" to="/">بحث</router-link>
+                    <router-link class="nav-link" to="/">حسابي</router-link>
+                    <router-link class="nav-link" to="/">اضف اعلانك</router-link>
+                    <router-link class="nav-link" to="/">تواصل معنا</router-link>
                   </div>
 
                   <div class="catagory">
                     <h4>التصنيفات</h4>
-                    <a class="nav-link" href="#">سيارات</a>
-                    <a class="nav-link" href="#">اثاث منزل</a>
-                    <a class="nav-link" href="#">عقارات</a>
-                    <a class="nav-link" href="#">هواتف</a>
-                    <a class="nav-link" href="#">الكترونيات</a>
-                    <a class="nav-link" href="#">دراجات نارية</a>
+                    <router-link class="nav-link" to="/">سيارات</router-link>
+                    <router-link class="nav-link" to="/">اثاث منزل</router-link>
+                    <router-link class="nav-link" to="/">عقارات</router-link>
+                    <router-link class="nav-link" to="/">هواتف</router-link>
+                    <router-link class="nav-link" to="/">الكترونيات</router-link>
+                    <router-link class="nav-link" to="/">دراجات نارية</router-link>
                   </div>
 
                   <div class="information ">
                     <h4 >معلومات</h4>
-                    <a class="nav-link" href="#">تعليمات الاستخدام</a>
-                    <a class="nav-link" href="#">سياسة الخصوصية</a>
-                    <a class="nav-link" href="#">من نحن</a>
+                    <router-link class="nav-link" to="/">تعليمات الاستخدام</router-link>
+                    <router-link class="nav-link" to="/">سياسة الخصوصية</router-link>
+                    <router-link class="nav-link" to="/">من نحن</router-link>
                   </div>
 
                   <div class="social-media ">
                     <h4>تابعنا عبر</h4>
-                    <a  href="#"><i class="fab fa-2x fa-facebook"></i></a>
-                    <a  href="#"><i class="fab fa-fw fa-2x fa-twitter"></i></a>
-                    <a  href="#"><i class="fab fa-fw fa-2x fa-dribbble"></i></a>
-                    <a  href="#"><i class="fab fa-fw fa-2x fa-linkedin-in"></i></a>  
+                    <router-link  to="/"><i class="fab fa-2x fa-facebook"></i></router-link>
+                    <router-link  to="/"><i class="fab fa-fw fa-2x fa-twitter"></i></router-link>
+                    <router-link  to="/"><i class="fab fa-fw fa-2x fa-dribbble"></i></router-link>
+                    <router-link to="/"><i class="fab fa-fw fa-2x fa-linkedin-in"></i></router-link>  
                   </div>
                 </div>
             </div>
