@@ -19,17 +19,12 @@
           <div class="container">
             <span class="adds-title">الاعلانات الحديثة</span>
           <div class="row">
-              <boxAds/>
-              <boxAds/>
-              <boxAds/>
-              <boxAds/>
-              <boxAds/>
-              <boxAds/>
-              <boxAds/>
-              <boxAds/>
-              <boxAds/>
-              <boxAds/>
-              <boxAds/>
+              <boxAds v-for = "boxAd in boxAds" 
+              :key = "boxAd.id"
+              :nameProduct = "boxAd.nameProduct"
+              :price = "boxAd.price"
+              :time = "boxAd.time"
+              />
           </div>
         </div>
       </div>
@@ -78,8 +73,6 @@
     .header .search-box{
         width: 39%;
     }
-
-
     .catagories .row{
         margin-right: 10px;
     }
@@ -87,7 +80,6 @@
     .ads-boxes .row .box{
         height: 255px;
     }
-
     .ads-boxes .row .card .card-body h5{
         font-size: 18px;
     }
@@ -162,7 +154,7 @@
 
 }
 
-@media (min-width:400px) and (max-width:576px){
+@media (min-width:430px) and (max-width:576px){
     .container{
         max-width: 576px;
     }
@@ -226,41 +218,30 @@
     .ads-boxes .row .box{
         width: 49%;
         margin-left: 0;
-        height: 225px;
+        height: 250px;
     }
 
     .ads-boxes .row .card {
         margin-left: 0;
     }
 
+   
     .ads-boxes .row .card .card-body h5{
-        position: absolute;
-        right: 10px;
-        top: 5px;
-        font-size: 16px;
-        font-weight: bold;
-    
+        font-size: 18px !important;
+
+
     }
     .ads-boxes .row .card .card-text{
-        position: absolute;
-        right: 10px;
-        bottom: 2px;
-        font-size: 17px;
-        font-weight: bold;
-        z-index: 1;
+        font-size: 16px !important;
     }
-    
+
     .ads-boxes .row .card .time{
-        font-size: 12px;
-        position: absolute;
-        left: 12px;
-        bottom: 5px;
-        z-index: 1;
+        font-size: 14px !important;
     }
 
 }
 
-@media (max-width:400px){
+@media (max-width:430px){
     .container{
         max-width: 400px;
     }
@@ -355,18 +336,19 @@
 
 }
 
-/* end media Query */
 </style>
+
 <script>
 import searchBox from "@/components/homeSearch/searchBox.vue";
 import catagoriesIcon from "@/components/global/catagoriesIcon.vue";
 import boxAds from "@/components/global/boxAds.vue";
+import boxAdsjson from "@/json/boxAds.json";
 export default {
   name: "Home",
-  data: function(){
-    return{
-      nameicon: "car"
-    }
+  data(){
+      return{
+        boxAds: boxAdsjson,   
+      }
   },
   components: {
     searchBox,

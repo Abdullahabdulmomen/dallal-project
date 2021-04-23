@@ -8,9 +8,9 @@
             <router-link to="/"> <img  src="@/assets/icon/pexels-designecologist-1005058.jpg" class="card-img-top" alt="..."></router-link>
                 </div>
              <div class="card-body">
-            <router-link class="nav-link" to="/"><h5 class="card-title">{{tittle}}</h5></router-link>
-                    <span class="card-text">30.000 ريال</span>
-                    <span class="time">قبل 5 دقائق</span>
+            <router-link class="nav-link" to="/"><h5 class="card-title">{{nameProduct}}</h5></router-link>
+                    <span class="card-text">{{price + " ريال"}}</span>
+                    <span class="time"> {{time}} </span>
             </div>
         </div>
     </div>    
@@ -91,11 +91,12 @@
 <script>
 export default {
     name: "boxAds",
+    props: ["nameProduct","price","time"],
     data(){
         return{
-            tittle: "clothes",
+        
+           
         }
     },
-    
 }
 </script>
