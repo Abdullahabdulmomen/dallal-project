@@ -24,6 +24,7 @@
               :nameProduct = "boxAd.nameProduct"
               :price = "boxAd.price"
               :time = "boxAd.time"
+              :zone = "boxAd.zone"
               />
           </div>
         </div>

@@ -8,8 +8,10 @@
             <router-link to="/"> <img  src="@/assets/icon/pexels-designecologist-1005058.jpg" class="card-img-top" alt="..."></router-link>
                 </div>
              <div class="card-body">
-            <router-link class="nav-link" to="/"><h5 class="card-title">{{nameProduct}}</h5></router-link>
-                    <span class="card-text">{{price + " ريال"}}</span>
+            <router-link class="nav-link" to="/">
+                 <span class="card-price">{{price + " ريال"}}</span>
+                 <h5 class="card-title">{{nameProduct}}</h5></router-link>
+                     <span class="zone"> {{zone}} </span>    
                     <span class="time"> {{time}} </span>
             </div>
         </div>
@@ -66,19 +68,27 @@
 .ads-boxes .row .card .card-body h5{
     position: absolute;
     right: 10px;
-    top: 15px;
+    top: 35px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 400;
 
 }
-.ads-boxes .row .card .card-text{
+.ads-boxes .row .card .card-price{
     position: absolute;
     right: 10px;
-    bottom: 2px;
-    font-size: 22px;
+    bottom: 54px;
+    font-size: 20px;
     font-weight: bold;
     z-index: 1;
 }
+
+.ads-boxes .row .card .zone{
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+    z-index: 1;
+}
+
 
 .ads-boxes .row .card .time{
     position: absolute;
@@ -91,7 +101,7 @@
 <script>
 export default {
     name: "boxAds",
-    props: ["nameProduct","price","time"],
+    props: ["nameProduct","price","time","zone"],
     data(){
         return{
         
