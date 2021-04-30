@@ -55,7 +55,8 @@
 </template>
 
 
-<style scoped> 
+<style scoped>
+
 .navbar{
     background-color:#E9E3D7 ;
     margin: 0;

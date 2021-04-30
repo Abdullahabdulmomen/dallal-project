@@ -9,6 +9,7 @@
                 </div>
              <div class="card-body">
             <router-link class="nav-link" to="/"><h5 class="card-title">{{nameProduct}}</h5></router-link>
+
                     <span class="card-text">{{price + " ريال"}}</span>
                     <span class="time"> {{time}} </span>
             </div>
@@ -21,6 +22,7 @@
 
 </template>
 <style scoped>
+
 .ads-boxes .row .box{
     width: 25%;
     height: 260px;
