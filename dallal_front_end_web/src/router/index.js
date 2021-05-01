@@ -2,7 +2,8 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
-
+import Search from "../views/Search.vue";
+import catagoriesProdect from "../views/catagoriesProdect.vue";  
 Vue.use(VueRouter);
 
 const routes = [
@@ -15,6 +16,16 @@ const routes = [
     path: "/about",
     name: "About",
     component: About,
+  },
+  {
+    path: "/search",
+    name: "Search",
+    component: Search,
+  },
+  {
+    path: "/catagoriesProdect",
+    name: "catagoriesProdect",
+    component: catagoriesProdect,
   },
 ];
 
