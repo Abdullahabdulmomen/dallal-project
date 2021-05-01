@@ -42,7 +42,7 @@
 
 
                   <li class="nav-item">
-                    <router-link  class="nav-link " to="/" tabindex="-1" aria-disabled="true"><span>تسجيل الدخول</span></router-link >
+                    <router-link  class="nav-link " to="/login" tabindex="-1" aria-disabled="true"><span>تسجيل الدخول</span></router-link >
                   </li>
               
             </ul>

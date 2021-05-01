@@ -8,7 +8,7 @@
                     <router-link class="nav-link" to="/">بحث</router-link>
                     <router-link class="nav-link" to="/">حسابي</router-link>
                     <router-link class="nav-link" to="/">اضف اعلانك</router-link>
-                    <router-link class="nav-link" to="/">تواصل معنا</router-link>
+                    <router-link class="nav-link" to="/contactUs">تواصل معنا</router-link>
                   </div>
 
                   <div class="catagory">
@@ -33,7 +33,7 @@
                     <router-link  to="/"><i class="fab fa-2x fa-facebook"></i></router-link>
                     <router-link  to="/"><i class="fab fa-fw fa-2x fa-twitter"></i></router-link>
                     <router-link  to="/"><i class="fab fa-fw fa-2x fa-dribbble"></i></router-link>
-                    <router-link to="/"><i class="fab fa-fw fa-2x fa-linkedin-in"></i></router-link>  
+                    <router-link  to="/"><i class="fab fa-fw fa-2x fa-linkedin-in"></i></router-link>  
                   </div>
                 </div>
             </div>
