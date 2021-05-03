@@ -2,8 +2,13 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
+import Search from "../views/Search.vue";
+import catagoriesProdect from "../views/catagoriesProdect.vue";  
 import contactUs from  "../views/contactUs.vue";
 import login from  "../views/login.vue";
+
+
+
 
 Vue.use(VueRouter);
 
@@ -19,6 +24,20 @@ const routes = [
     component: About,
   },
   {
+    path: "/search",
+    name: "Search",
+    component: Search,
+  },
+
+
+  {
+    path: "/catagoriesProdect",
+    name: "catagoriesProdect",
+    component: catagoriesProdect,
+
+  },
+  {
+
     path: "/contactUs",
     name: "contactUs",
     component: contactUs,
@@ -28,6 +47,9 @@ const routes = [
     name: "login",
     component: login,
   },
+  
+  
+  
 ];
 
 const router = new VueRouter({

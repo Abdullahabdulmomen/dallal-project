@@ -38,7 +38,7 @@
 
 <style scoped>
 .header{
-    background-image: url(../assets/icon/bg-header.jpg);
+    background-image: url('~@/assets/icon/bg-header.jpg');
     height: 355px;    
 }
 

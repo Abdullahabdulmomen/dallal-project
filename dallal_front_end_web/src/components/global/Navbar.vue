@@ -1,5 +1,5 @@
 <template>
-       <!--start navbar-->
+       
      <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
         <div class="container">
           <router-link class="navbar-brand" to="/" ><img src="@/assets/icon/logo.svg" alt="logo"></router-link>
@@ -16,7 +16,7 @@
                         <img src="@/assets/icon/dropdown.svg" alt="dropdown-icon">
                     </router-link>
                     <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
-                        <li><router-link class="dropdown-item" to="/"><img src="@/assets/icon/directions_car-24px.svg" alt="car-icon">سيارات</router-link></li>
+                        <li><router-link class="dropdown-item" to="/catagoriesProdect"><img src="@/assets/icon/directions_car-24px.svg" alt="car-icon">سيارات</router-link></li>
                             
                         <li><router-link  class="dropdown-item" to="/"><img src="@/assets/icon/weekend-24px.svg" alt="goods-icon">اثاث منزل</router-link></li>
                         
@@ -37,7 +37,7 @@
                 </li>
     
                   <li class="nav-item nav-item-left">
-                    <router-link  class="nav-link" to="/"><span>ابحث</span><img src="@/assets/icon/search-24px.svg" alt="search-icon"></router-link >
+                    <router-link  class="nav-link" to="/search"><span>ابحث</span><img src="@/assets/icon/search-24px.svg" alt="search-icon"></router-link >
                 </li>
 
 
@@ -51,11 +51,12 @@
           </div>
         </div>
       </nav>
-     <!--end navbar-->
+     
 </template>
 
 
-<style scoped> 
+<style scoped>
+
 .navbar{
     background-color:#E9E3D7 ;
     margin: 0;

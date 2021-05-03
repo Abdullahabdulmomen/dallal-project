@@ -1,7 +1,7 @@
 <template>
     <div class="catagory-icons row">
               <div class="icons">
-                <router-link class="nav-link" to="/">
+                <router-link class="nav-link" to="/catagoriesProdect">
                     <div class="icon rounded-circle"><img src="@/assets/icon/directions_car-24px.svg" alt="car-icon"></div>
                     <h6 class="icon-name">سيارات</h6>
                 </router-link>

@@ -16,6 +16,20 @@
                         <option value="">عدن</option>
                         <option value="">ماب</option>
                         <option value="">شبوة</option>
+                        <option value="">حضرموت</option>
+                        <option value="">الحديدة</option>
+                        <option value="">الجوف</option>
+                        <option value="">المحويت</option>
+                        <option value="">ذمار</option>
+                        <option value="">أمانة العاصمة</option>
+                        <option value="">حجة</option>
+                        <option value="">صعدة</option>
+                        <option value="">أبين</option>
+                        <option value="">الضالع</option>
+                        <option value="">عمران</option>
+                        <option value="">سقطرى</option> 
+                        <option value="">ريمة</option> 
+                        <option value="">المهرة</option>  
                     </select>
                     <img class="map-icon" src="@/assets/icon/map.svg" alt="map-icon" aria-hidden="true">
         </div> 

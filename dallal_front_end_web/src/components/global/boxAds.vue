@@ -23,6 +23,7 @@
 
 </template>
 <style scoped>
+
 .ads-boxes .row .box{
     width: 25%;
     height: 260px;
