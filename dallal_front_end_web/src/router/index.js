@@ -6,6 +6,7 @@ import Search from "../views/Search.vue";
 import catagoriesProdect from "../views/catagoriesProdect.vue";  
 import contactUs from  "../views/contactUs.vue";
 import login from  "../views/login.vue";
+import register from "@/components/register.vue";
 
 
 
@@ -47,6 +48,12 @@ const routes = [
     name: "login",
     component: login,
   },
+  {
+    path: "/register",
+    name: "register",
+    component: register,
+  },
+  
   
   
   

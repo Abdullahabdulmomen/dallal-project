@@ -3,8 +3,8 @@
     <div class="main-box">
             
                 <img class="img-logo" src="../assets/icon/logo.svg">
-                <a class=" login-word  " href="#">تسجيل الدخول</a>
-                <a class=" register-word   " href="#">حساب جديد</a>
+                <router-link class=" login-word" to="/login">تسجيل الدخول</router-link>
+                <router-link class=" register-word" to="/register">حساب جديد</router-link>
                 
                 <hr  />
                 <h1> مرحبا بكم</h1>
@@ -12,15 +12,15 @@
                 <p><input class="format-input" type="email" ></p>
                 <label   class="format-label" >كلمه السر</label>
                 <p><input  class="format-input"  type="password" ></p>
-                <a class=" forget-pass  " href="#">هل نسيت كلمه المرور؟</a>
+                <router-link class=" forget-pass  " to="">هل نسيت كلمه المرور؟</router-link>
                 <div class="buttom-center">
                     <button type="submit" class="button-login" >الدخول</button>
                 </div>
                 
                 <h2> او يمكنك تسجيل الدخول عن طريق</h2>
-                <a  href="#"  alt="media-icon"> <img class="twitter-icon" src="../assets/icon/twitter (1).svg"  alt="">   </a>
-                <a  href="#" alt="media-icon">  <img class="twitter-icon" src="../assets/icon/search.svg"  alt="">        </a>
-                <a  href="#" alt="media-icon">  <img class="twitter-icon" src="../assets/icon/Path 16.svg"  alt="">       </a>
+                <router-link  to=""  alt="media-icon"> <img class="twitter-icon" src="../assets/icon/twitter (1).svg"  alt="">   </router-link>
+                <router-link  to="" alt="media-icon">  <img class="twitter-icon" src="../assets/icon/search.svg"  alt="">        </router-link>
+                <router-link  to="" alt="media-icon">  <img class="twitter-icon" src="../assets/icon/Path 16.svg"  alt="">       </router-link>
     </div>
     
 </template>

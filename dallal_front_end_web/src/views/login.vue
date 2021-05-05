@@ -46,7 +46,7 @@
 
 
 
-  <script>
+<script>
 import loginFarm from "@/components/loginFarm.vue";
 
 export default {
