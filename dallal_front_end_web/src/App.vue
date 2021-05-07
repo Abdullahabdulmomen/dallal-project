@@ -12,11 +12,13 @@
 
 <script>
 import Navbar from "@/components/global/Navbar.vue";
+import navbarUser from "@/components/user/navbarUser.vue";
 import Footer from "@/components/global/Footer.vue";
 export default {
   components: {
     Navbar,
-    Footer
+    Footer,
+    navbarUser
   },
 };
 </script>

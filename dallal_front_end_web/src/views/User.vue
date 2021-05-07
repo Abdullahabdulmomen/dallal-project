@@ -1,39 +1,32 @@
 <template>
-
-  <div class="wrap">
-
-      
-    <section class="header">
-      <div class="container">
-        <searchBox/>
-      </div>
-    </section>
-      
-      <section class="catagories container">
-        <span class="catagory-title">تصفح التصنيفات</span>
-           <catagoriesIcon/>
-       
-      </section>
-      
-      <div class="ads-boxes">
+     <div class="wrap">
+        <section class="header">
           <div class="container">
-            <span class="adds-title">الاعلانات الحديثة</span>
-          <div class="row">
-              <boxAds v-for = "boxAd in boxAds" 
-              :key = "boxAd.id"
-              :nameProduct = "boxAd.nameProduct"
-              :price = "boxAd.price"
-              :time = "boxAd.time"
-              :zone = "boxAd.zone"
-              />
+              <searchBox/>
           </div>
-        </div>
-      </div>
+        </section>
+          <section class="catagories container">
+            <span class="catagory-title">تصفح التصنيفات</span>
+            <catagoriesIcon/>
+          </section>
+    
 
-
+          <div class="ads-boxes">
+              <div class="container">
+                <span class="adds-title">الاعلانات الحديثة</span>
+                <div class="row">
+                <boxAds v-for = "boxAd in boxAds" 
+                :key = "boxAd.id"
+                :nameProduct = "boxAd.nameProduct"
+                :price = "boxAd.price"
+                :time = "boxAd.time"
+                :zone = "boxAd.zone"
+              />
+              </div>
+    
+            </div>
+          </div>
     </div>
-
-
 </template>
 
 <style scoped>
@@ -337,6 +330,7 @@
 }
 
 </style>
+
 
 <script>
 import searchBox from "@/components/home/searchBox.vue";
