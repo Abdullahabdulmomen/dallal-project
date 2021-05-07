@@ -112,7 +112,7 @@
           </div>
         </div>
 
-        <div class="browse-more lead text-justify">
+        <div class="browse-more">
           <h4>تصفح المزيد</h4>
           <ul class="list-group list-group-horizontal text-cenetr">
             <li class="list-group-item list-group-item-action"><a class="nav-link" href="#">1</a></li>
@@ -370,6 +370,7 @@
 
 .content .all-add-boxes .browse-more .list-group{
     margin-right: 37%;
+    
 }
 
 .content .all-add-boxes .browse-more .list-group-item{

@@ -4,6 +4,9 @@ import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 import Search from "../views/Search.vue";
 import catagoriesProdect from "../views/catagoriesProdect.vue";  
+import detailsAdsBox from "../views/detailsAdsBox.vue";
+import addPost from "../views/addPost.vue";
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -26,6 +29,16 @@ const routes = [
     path: "/catagoriesProdect",
     name: "catagoriesProdect",
     component: catagoriesProdect,
+  },
+  {
+    path: "/detailsAdsBox",
+    name: "detailsAdsBox",
+    component: detailsAdsBox,
+  },
+  {
+    path: "/addPost",
+    name: "addPost",
+    component: addPost,
   },
 ];
 

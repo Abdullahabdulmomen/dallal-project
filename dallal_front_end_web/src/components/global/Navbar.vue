@@ -33,7 +33,7 @@
 
              
                 <li class="nav-item nav-item-left" id="add-post">
-                    <router-link   class="nav-link" aria-current="page" to="/"><span>اضف اعلانك</span><img src="@/assets/icon/add.svg" alt="add-post-icon"></router-link >
+                    <router-link   class="nav-link" aria-current="page" to="/addPost"><span>اضف اعلانك</span><img src="@/assets/icon/add.svg" alt="add-post-icon"></router-link >
                 </li>
     
                   <li class="nav-item nav-item-left">
@@ -106,6 +106,38 @@
 .navbar .navbar-nav #add-post img{
     margin-right: 39px;
 }
+
+
+@media (min-width:992px) and (max-width:1200px){
+    .container{
+        max-width: 1200px;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .container{
+        max-width: 992px;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px){
+    .container{
+        max-width: 768px;
+    }
+}
+
+@media (min-width:430px) and (max-width:576px){
+    .container{
+        max-width: 576px;
+    }
+}
+
+@media (max-width:430px){
+    .container{
+        max-width: 400px;
+    }
+}
+
 </style>
 
 <script>

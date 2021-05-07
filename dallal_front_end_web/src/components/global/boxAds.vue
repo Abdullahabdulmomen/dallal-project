@@ -3,9 +3,9 @@
                   
     <div class="box">
         <div class="card" >
-            <router-link to="/"><img class="favorite-icon" src="@/assets/icon/favorite.svg" alt="favorite-icon"></router-link>
+            <router-link to="/detailsAdsBox"><img class="favorite-icon" src="@/assets/icon/favorite.svg" alt="favorite-icon"></router-link>
                 <div class="inner">
-            <router-link to="/"> <img  src="@/assets/icon/pexels-designecologist-1005058.jpg" class="card-img-top" alt="..."></router-link>
+            <router-link to="/detailsAdsBox"> <img  src="@/assets/icon/pexels-designecologist-1005058.jpg" class="card-img-top" alt="..."></router-link>
                 </div>
              <div class="card-body">
             <router-link class="nav-link" to="/">
