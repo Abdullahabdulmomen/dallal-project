@@ -23,8 +23,8 @@
 
                   <div class="information ">
                     <h4 >معلومات</h4>
-                    <router-link class="nav-link" to="/">تعليمات الاستخدام</router-link>
-                    <router-link class="nav-link" to="/">سياسة الخصوصية</router-link>
+                    <router-link class="nav-link" to="/usageInstructions">تعليمات الاستخدام</router-link>
+                    <router-link class="nav-link" to="/privacyPolicy">سياسة الخصوصية</router-link>
                     <router-link class="nav-link" to="/">من نحن</router-link>
                   </div>
 
@@ -171,7 +171,9 @@
 </style>
 
 <script>
+
 export default {
     name: "Footer",
+ 
 }
 </script>

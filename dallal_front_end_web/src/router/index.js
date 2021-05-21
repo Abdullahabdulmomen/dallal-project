@@ -2,7 +2,6 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import User from "../views/User.vue";
-import About from "../views/About.vue";
 import Search from "../views/Search.vue";
 
 import catagoriesProdect from "../views/catagoriesProdect.vue";  
@@ -12,7 +11,11 @@ import addPost from "../views/addPost.vue";
 import contactUs from  "../views/contactUs.vue";
 import login from  "../views/login.vue";
 import register from "@/components/register.vue";
-
+import usageInstructions from "../views/usageInstructions.vue";
+import privacyPolicy from "../views/privacyPolicy.vue";
+import howToRegister from "../views/howToRegister.vue";
+import howToPostMyAd from "../views/howToPostMyAd.vue";
+import whyAccountSuspended from "../views/whyAccountSuspended.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -26,11 +29,7 @@ const routes = [
     name: "User",
     component: User,
   },
-  {
-    path: "/about",
-    name: "About",
-    component: About,
-  },
+
   {
     path: "/search",
     name: "Search",
@@ -67,6 +66,31 @@ const routes = [
     path: "/register",
     name: "register",
     component: register,
+  },
+  {
+    path: "/usageInstructions",
+    name: "usageInstructions",
+    component: usageInstructions,
+  },
+  {
+    path: "/privacyPolicy",
+    name: "privacyPolicy",
+    component: privacyPolicy,
+  },
+  {
+    path: "/howToRegister",
+    name: "howToRegister",
+    component:howToRegister,
+  },
+  {
+    path: "/howToPostMyAd",
+    name: "howToPostMyAd",
+    component:howToPostMyAd,
+  },
+  {
+    path: "/whyAccountSuspended",
+    name: "whyAccountSuspended",
+    component:whyAccountSuspended,
   },
 ];
 
