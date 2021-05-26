@@ -6,8 +6,7 @@
                 <div class="edit-profile">
                 <div class="container">
                     <div class="row">
-                           
-                     <editForm />
+                        <editForm />
 
                     </div>
                 </div>
@@ -15,7 +14,7 @@
                     
         
             
-     </div>
+    </div>
 
 </template>
 

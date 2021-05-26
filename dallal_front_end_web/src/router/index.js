@@ -10,7 +10,7 @@ import addPost from "../views/addPost.vue";
 
 import contactUs from  "../views/contactUs.vue";
 import login from  "../views/login.vue";
-import register from "@/components/register.vue";
+import register from "../views/register.vue";
 import usageInstructions from "../views/usageInstructions.vue";
 import privacyPolicy from "../views/privacyPolicy.vue";
 import howToRegister from "../views/howToRegister.vue";

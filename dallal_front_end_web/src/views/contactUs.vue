@@ -1,6 +1,6 @@
 <template>
 
- <div class="wrap">
+<div class="wrap">
 
       <section class="box-information">
                 <div class="overlay">
@@ -12,7 +12,7 @@
                 </div>
                 
         </section> 
-   
+
 
 
     </div>

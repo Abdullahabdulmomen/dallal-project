@@ -79,7 +79,7 @@
     margin-top: -6%;
 }
 
-.main-box .login-word::after {
+.main-box .register-word::after {
     content: '';
     display: block;
     width: 0;
@@ -93,7 +93,7 @@
 
 }
 
-.main-box .login-word:hover::after{
+.main-box .register-word:hover::after{
     width: 100%;
     transition: wdth .3s;
 }

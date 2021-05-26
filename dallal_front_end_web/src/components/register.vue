@@ -1,4 +1,5 @@
 <template>
+  
   <div class="main-box">
     <img class="img-logo" src="../assets/icon/logo.svg" />
     <router-link class="login-word" to="/login">تسجيل الدخول</router-link>
@@ -59,16 +60,7 @@
   margin-top: -6%;
 }
 
-.main-box .register-word {
-  font-size: 150%;
-  font-weight: 500;
-  float: left;
-  text-decoration: none;
-  color: #364c63;
-  margin-top: -6%;
-}
-
-.main-box .register-word::after {
+.main-box .login-word::after {
   content: "";
   display: block;
   width: 0;
@@ -79,10 +71,21 @@
   transition: width 0.3s;
 }
 
-.main-box .register-word:hover::after {
+.main-box .login-word:hover::after {
   width: 140%;
   transition: wdth 0.3s;
 }
+
+.main-box .register-word {
+  font-size: 150%;
+  font-weight: 500;
+  float: left;
+  text-decoration: none;
+  color: #364c63;
+  margin-top: -6%;
+}
+
+
 
 .main-box hr {
   width: 122% !important;
